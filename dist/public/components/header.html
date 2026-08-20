@@ -1,0 +1,169 @@
+<header class="s-header header">
+
+    <div class="header__top">
+        <div class="header__logo">
+            Past the War Earth
+        </div>
+        <!-- toggles -->
+        <a href="#0"
+           class="header__menu-toggle"><span>Menu</span></a>
+    </div>
+
+    <style>
+        header.s-header.header {
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+
+        header.s-header.header nav.header__nav-wrap ul.header__nav li {
+            padding: 0px;
+        }
+
+        header.s-header.header nav.header__nav-wrap ul.header__nav li li {
+            font-size: 10px;
+        }
+
+        .year-heading {
+            color: orange;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .months-heading {
+            color: orange;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        li>span.blog-title {
+            color: gray;
+        }
+
+        li>span.blog-title>a {
+            display: inline;
+            color: white;
+        }
+    </style>
+    <nav class="header__nav-wrap">
+        <ul class="header__nav">
+            <li class="has-children current">
+                <span class="blog-title"><a href="../index.html"
+                       title="">Blog</a>
+                    &nbsp;&nbsp;
+                    EN &nbsp; <a href="../rus/">RU</a> &nbsp; <a href="../notes/">.</a>
+                </span>
+                <div onclick="selectYearOnPage(2026)"
+                     class="year-heading">2026</div>
+                <div id="2026-articles">
+                    <ul style="display: block;">
+                        <li>
+                            <a href="../2026/Number_Two_Factor_-_Mother_Planet_Earth.html">The Number Two Factor</a>
+                        </li>
+                    </ul>
+                </div>
+                <div onclick="selectYearOnPage(2025)"
+                     class="year-heading">2025</div>
+                <div id="2025-articles">
+                    <ul style="display: block;">
+                        <li>
+                            <a href="../2025/Many_ways.html">Many Ways</a>
+                        </li>
+                        <li>
+                            <a href="../2025/It_takes_time.html">It takes time</a>
+                        </li>
+                        <li>
+                            <a href="../2025/Lest_we_forget_-_End_of_WWII.html">Lest We
+                                Forget: End of World War II</a>
+                        </li>
+                        <li>
+                            <a href="../2025/Lest_we_forget_-_Start_of_WWII.html">Lest We
+                                Forget: Start of World War II</a>
+                        </li>
+                        <li>
+                            <a href="../2025/Lest_we_forget_-_Attack_on_Soviet_Union.html">Lest We
+                                Forget: Attack on Soviet Union</a>
+                        </li>
+                        <li>
+                            <a href="../2025/Lest_we_forget_-_Victory_Day.html">Lest We
+                                Forget: Victory Day</a>
+                        </li>
+                        <li>
+                            <a href="../2025/RF-Think_big_start_small.html">RF - Think big, start
+                                small</a>
+                        </li>
+                        <li>
+                            <a href="../2025/The_importance_of_transitional_zones.html">The
+                                importance of "transitional zones"</a>
+                        </li>
+                    </ul>
+                </div>
+                <div onclick="selectYearOnPage(2024)"
+                     class="year-heading">2024</div>
+                <div id="2024-articles">
+                    <ul style="display: block;">
+                        <li>
+                            <a href="../2024/Lest_we_forget_-_Attack_on_Pearl_Harbor.html">Lest We
+                                Forget: Attack on Pearl Harbor</a>
+                        </li>
+                        <li>
+                            <a href="../2024/Number_One_Factor_to_NLNM.html">The Number One
+                                Factor</a>
+                        </li>
+                        <li>
+                            <a href="../2024/USA-First_to_Fusion.html">USA - First to Fusion</a>
+                        </li>
+                        <li>
+                            <a href="../2024/Pull_for_Peace_Now.html">Pull for Peace Now!</a>
+                        </li>
+                        <li>
+                            <a href="../2024/Sudan-famine_imminent.html">Sudan - famine imminent</a>
+                        </li>
+                    </ul>
+                    <div onclick="selectMonthsOnPage(2024, 'March_April')"
+                         class="months-heading">March - April</div>
+                    <ul id="2024-March_April-articles"
+                        class="sub-menu"
+                        style="display: block;">
+                        <li><a href="../2024/Finding_ways_to_stop_Famine.html">Finding ways to stop
+                                Famine</a></li>
+                        <li><a
+                               href="../2024/Middle_East_Peace-Integrated_Palestinian_Autonomy.html">Middle
+                                East Peace - Integrated Palestinian Autonomy</a></li>
+                        <li><a href="../2024/Sudan-Life_first_peace_After.html">Sudan: Life first,
+                                peace
+                                After</a></li>
+                        <li><a href="../2024/EU-CIS_stability-Poland.html">EU-CIS stability:
+                                Poland</a></li>
+                        <li><a href="../2024/history/Japan_and_Korea.html">Before Fusion: Japan &
+                                Korea</a></li>
+                        <li><a href="../2024/history/CIS.html">Before Fusion: CIS</a></li>
+                        <li><a href="../2024/history/EU.html">Before Fusion: EU</a></li>
+                        <li><a href="../2024/history/AUKUS.html">Before Fusion: AUKUS</a></li>
+                        <li><a href="../2024/Africa_+_Middle_East-Sudan.html">Africa - Middle East:
+                                <i>Sudan</i></a></li>
+                    </ul>
+                    <div onclick="selectMonthsOnPage(2024, 'January_February')"
+                         class="months-heading">January - February</div>
+                    <ul id="2024-January_February-articles"
+                        class="sub-menu"
+                        style="display: block;">
+                        <li><a href="../2024/history/China.html">Before Fusion: China</a></li>
+                        <li><a href="../2024/history/India.html">Before Fusion: India</a></li>
+                        <li><a href="../2024/Time_to_act_is_now.html">Time to act is Now!</a></li>
+                    </ul>
+                </div>
+                <div onclick="selectYearOnPage(2023)"
+                     class="year-heading">2023</div>
+                <ul id="2023-articles"
+                    class="sub-menu"
+                    style="display: block;">
+                    <li><a href="../2023/The_causes_of_War.html">The causes of War</a></li>
+                </ul>
+            </li>
+        </ul> <!-- end header__nav -->
+
+    </nav> <!-- end header__nav-wrap -->
+    <!--
+<a href="../easter_egg.html">&#129370;</a>
+-->
+</header>

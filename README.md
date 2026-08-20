@@ -1,2 +1,2 @@
-# past-the-war.earth_unlinked
-PTWE Unlinked
+# past-the-war.earth
+PTWE unlinked from MTABS
